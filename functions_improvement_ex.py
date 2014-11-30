@@ -12,8 +12,8 @@ def timesTable():
 
 def questionComplete(testTable):
     for questions in range(1,6):
-        question(testTable)
-        displayCorrect(UserAnswer,Ans)
+        userAns, Ans2 = question(testTable)
+        displayCorrect(userAns, Ans2)
         
 def question(testTable):
     Num1 = testTable
