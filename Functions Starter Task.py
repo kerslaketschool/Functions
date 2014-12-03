@@ -33,4 +33,3 @@ def displayTotalPay(total):
 
 #main program
 calculatePay()
-
