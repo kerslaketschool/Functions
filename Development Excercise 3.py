@@ -39,7 +39,8 @@ def ConvertToDollars(convertFrom,convertQuantity):
     elif convertFrom == "€":
         conversion = convertQuantity * 1.302
     else:
-        conversion = convertQuantity 
+        conversion = convertQuantity
+    return conversion
 
 def ConvertToEuros(convertFrom,convertQuantity):
     if convertFrom == "£":
@@ -47,7 +48,8 @@ def ConvertToEuros(convertFrom,convertQuantity):
     elif convertFrom == "$":
         conversion = convertQuantity *0.768
     else:
-        conversion = convertQuantity 
+        conversion = convertQuantity
+    return conversion
 
 def DisplayConversion(convertTo,conversion):
     print(convertTo,conversion)
