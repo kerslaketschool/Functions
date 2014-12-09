@@ -2,9 +2,9 @@
 #02-12-14
 #Functions Revision Exercise 1
 
-def outputSymbols(integer,charSym):
-    for count in integer:
-        print(charSym)
+
+def outputSymbols(Integer,CharSym):
+    print(Integer * CharSym)
 
 def integer():
     integer = int(input("Enter an integer:"))
@@ -13,8 +13,11 @@ def integer():
 def characterSymbol():
     charSym = input("Please enter a character symbol")
     return charSym
+
+def mainProgram():
+    Integer = integer()
+    CharSym = characterSymbol()
+    outputSymbols(Integer,CharSym)
     
 #main program
-intgeger = integer()
-charSym = characterSymbol()
-outputSymbols(integer,charSym)
+mainProgram()
